@@ -26,10 +26,10 @@ function PureGoWheyProtein() {
   const ProductFlavor = searchParams.get("flavor");
   const ProductSize = searchParams.get("size");
   const canonicalUrl = window.location.href;
-  const [currentProduct, setCurrentProduct] = useState("1kg-Chocolate");
+  const [currentProduct, setCurrentProduct] = useState("1kg-Blue Berry");
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeSize, setActiveSize] = useState("1kg");
-  const [activeFlavor, setActiveFlavor] = useState("Chocolate");
+  const [activeFlavor, setActiveFlavor] = useState("Blue Berry");
   const [opacity, setOpacity] = useState(1);
   const imageRef = useRef(null);
   const [showModal, setShowModal] = useState(false);
@@ -44,7 +44,7 @@ function PureGoWheyProtein() {
   };
 
   const productImages = {
-    "1kg-Chocolate": [
+    "1kg-Blue Berry": [
       "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-1.jpg",
       "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-2.jpg",
       "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-3.jpg",
@@ -56,23 +56,11 @@ function PureGoWheyProtein() {
       "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-3.jpg",
       "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-4.jpg",
     ],
-    "2kg-Chocolate": [
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-1.jpg",
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-2.jpg",
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-3.jpg",
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-4.jpg",
-    ],
-    "2kg-Mocha Coffee": [
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-1.jpg",
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-2.jpg",
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-3.jpg",
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-4.jpg",
-    ],
   };
 
   const products = [
     {
-      key: "1kg-Chocolate",
+      key: "1kg-Blue Berry",
       data: {
         img: "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-1.jpg",
         name: "Whey Protein 1kg Chocolate",
@@ -93,38 +81,16 @@ function PureGoWheyProtein() {
         discount: "35%",
       },
     },
-    {
-      key: "2kg-Chocolate",
-      data: {
-        img: "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-1.jpg",
-        name: "Whey Protein 2kg Chocolate",
-        price: "4200",
-        old_price: "7000",
-        size: "2 Kg",
-        discount: "40%",
-      },
-    },
-    {
-      key: "2kg-Mocha Coffee",
-      data: {
-        img: "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-1.jpg",
-        name: "Whey Protein 2kg Mocha Coffee",
-        price: "4200",
-        old_price: "7000",
-        size: "2 Kg",
-        discount: "40%",
-      },
-    },
   ];
 
-  const sizeOptions = [
-    { id: "1kg", label: "1kg" },
-    { id: "2kg", label: "2kg" },
-  ];
+  const sizeOptions = [{ id: "1kg", label: "1kg" }];
 
   const flavorOptions = [
-    { id: "Chocolate", label: "Chocolate" },
-    { id: "Mocha Coffee", label: "Mocha Coffee" },
+    { id: "Blue Berry", label: "Blue Berry" },
+    { id: "Kesar Pista", label: "Kesar Pista" },
+    { id: "Mango", label: "Mango" },
+    { id: "Orange", label: "Orange" },
+    { id: "Strawberry", label: "Strawberry" },
   ];
 
   const handleSelectSize = (id) => {
@@ -231,7 +197,7 @@ function PureGoWheyProtein() {
                   <div className="inner-shop-details-meta">
                     <ul className="list-wrap">
                       <li>
-                        Brands : <a href="shop.html">MusclesXtrify</a>
+                        Brands : <a href="shop.html">Prep</a>
                       </li>
                       <li className="inner-shop-details-review">
                         <div className="rating">
@@ -257,14 +223,14 @@ function PureGoWheyProtein() {
                     </h5>
                   </div>
                   <p>
-                    MusclesXtrify Whey Protein Chocolate 1kg delivers
-                    high-quality protein to fuel muscle growth, enhance
-                    recovery, and boost strength. With a rich chocolate flavor,
-                    it's perfect for athletes and fitness enthusiasts looking to
-                    optimize performance. Packed with essential amino acids, it
-                    supports lean muscle development and faster post-workout
-                    recovery. This protein blend helps you achieve your fitness
-                    goals with great taste and superior nutrition.
+                    Prep Whey Protein Chocolate 1kg delivers high-quality
+                    protein to fuel muscle growth, enhance recovery, and boost
+                    strength. With a rich chocolate flavor, it's perfect for
+                    athletes and fitness enthusiasts looking to optimize
+                    performance. Packed with essential amino acids, it supports
+                    lean muscle development and faster post-workout recovery.
+                    This protein blend helps you achieve your fitness goals with
+                    great taste and superior nutrition.
                   </p>
                   <div>
                     <SelectableList
@@ -317,34 +283,31 @@ function PureGoWheyProtein() {
                       aria-labelledby="description-tab"
                     >
                       <div className="product-desc-content">
-                        <h4 className="title">
-                          The true strength of MusclesXtrify :
-                        </h4>
+                        <h4 className="title">The true strength of Prep :</h4>
                         <p>
-                          MusclesXtrify Nutrition Whey Protein is a Mixture of
-                          Whey Isolate, Whey Concentrate, Skimmed Milk powder,
-                          Soy protein isolate and plant protein. It is packed
-                          with 24g of 100% High Quality whey protein per serving
-                          (30g scoop). The benchmark and premium source of
-                          protein powders. Each serving delivers an excellent
-                          course of naturally occurring essential amino acids
-                          and Branch Chain Amino Acids (BCAA's). The protein
-                          found in Performance Whey Blend help support the
-                          growth and maintenance of lean muscle mass, ideal for
-                          everyone.
+                          Prep Nutrition Whey Protein is a Mixture of Whey
+                          Isolate, Whey Concentrate, Skimmed Milk powder, Soy
+                          protein isolate and plant protein. It is packed with
+                          24g of 100% High Quality whey protein per serving (30g
+                          scoop). The benchmark and premium source of protein
+                          powders. Each serving delivers an excellent course of
+                          naturally occurring essential amino acids and Branch
+                          Chain Amino Acids (BCAA's). The protein found in
+                          Performance Whey Blend help support the growth and
+                          maintenance of lean muscle mass, ideal for everyone.
                         </p>
                         <h4 className="title">
                           BETTER INGREDIENTS = BETTER RESULTS
                         </h4>
-                        <h4 className="title">MusclesXtrify the basics :</h4>
+                        <h4 className="title">Prep the basics :</h4>
                         <ul>
                           <li>
-                            NO COLORS: MusclesXtrify Nutrition Whey Protein does
-                            not contain any COLOR or PRESERVATIVES.
+                            NO COLORS: Prep Nutrition Whey Protein does not
+                            contain any COLOR or PRESERVATIVES.
                           </li>
                           <li>
-                            NO ADDED SUGAR: MusclesXtrify Nutrition Whey Protein
-                            does not Contain any Added SUGAR.
+                            NO ADDED SUGAR: Prep Nutrition Whey Protein does not
+                            Contain any Added SUGAR.
                           </li>
                           <li>
                             CONTAINS SUCRALOSE: It also contains SUCRALOSE as a

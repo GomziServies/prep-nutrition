@@ -23,12 +23,10 @@ function Supplements() {
   return (
     <>
       <Helmet>
-        <title>
-          About MusclesXtrify - Premium Supplements for Peak Performance
-        </title>
+        <title>About Prep - Premium Supplements for Peak Performance</title>
         <meta
           name="description"
-          content="Learn about MusclesXtrify's mission to provide top-quality supplements for muscle growth, strength, and recovery."
+          content="Learn about Prep's mission to provide top-quality supplements for muscle growth, strength, and recovery."
         />
         <meta
           property="og:url"
@@ -212,7 +210,7 @@ function Supplements() {
                     </div>
                     <div className="tg-shop-content">
                       <h4 className="title">
-                        <a href="pre-workout">MusclesXtrify Pre Workout</a>
+                        <a href="pre-workout">Prep Pre Workout</a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
                         <b>₹ 1,125/-</b>

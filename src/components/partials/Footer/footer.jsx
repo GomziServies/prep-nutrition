@@ -25,9 +25,8 @@ function HomeNutritionFooter() {
                       </div>
                       <div className="footer-text">
                         <p>
-                          Elevate your fitness journey with MusclesXtrify's
-                          premium supplements for strength, muscle growth, and
-                          recovery.
+                          Elevate your fitness journey with Prep's premium
+                          supplements for strength, muscle growth, and recovery.
                         </p>
                       </div>
                     </div>

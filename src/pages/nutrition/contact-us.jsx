@@ -23,12 +23,10 @@ function ContactUs() {
   return (
     <>
       <Helmet>
-        <title>
-          About MusclesXtrify - Premium Supplements for Peak Performance
-        </title>
+        <title>About Prep - Premium Supplements for Peak Performance</title>
         <meta
           name="description"
-          content="Learn about MusclesXtrify's mission to provide top-quality supplements for muscle growth, strength, and recovery."
+          content="Learn about Prep's mission to provide top-quality supplements for muscle growth, strength, and recovery."
         />
         <meta
           property="og:url"
@@ -79,7 +77,7 @@ function ContactUs() {
                     <div className="contact-content">
                       <h5 className="title">Address</h5>
                       <p className="contact-desc">
-                        I-701, Sanidhya Flora, New Ranip, Ahmedabad-382470
+                        W/n-41, Mithila nagar hemra, dist-begusarai 851101
                       </p>
                     </div>
                   </div>
@@ -95,7 +93,8 @@ function ContactUs() {
                     <div className="contact-content">
                       <h5 className="title">Phone Number</h5>
                       <p className="contact-desc">
-                        +91 95103 43247 <br /> +91 96018 02579
+                        +91 70791 50883
+                        <br />
                       </p>
                     </div>
                   </div>
@@ -111,8 +110,8 @@ function ContactUs() {
                     <div className="contact-content">
                       <h5 className="title">Connect</h5>
                       <p className="contact-desc">
-                        musclesxtrifynutrition@gmail.com <br />
-                        musclesxtrify.in
+                        prepnutrition35@gmail.com <br />
+                        Prep.in
                       </p>
                     </div>
                   </div>

@@ -23,12 +23,10 @@ function AboutUs() {
   return (
     <>
       <Helmet>
-        <title>
-          About MusclesXtrify - Premium Supplements for Peak Performance
-        </title>
+        <title>About Prep - Premium Supplements for Peak Performance</title>
         <meta
           name="description"
-          content="Learn about MusclesXtrify's mission to provide top-quality supplements for muscle growth, strength, and recovery."
+          content="Learn about Prep's mission to provide top-quality supplements for muscle growth, strength, and recovery."
         />
         <meta
           property="og:url"
@@ -71,11 +69,11 @@ function AboutUs() {
                 <div className="blog--post--item">
                   <div className="blog--post--content blog-details-content">
                     <h2 className="blog--post--title">
-                      MusclesXtrify - Fueling Strength, Maximizing Potential
+                      Prep - Fueling Strength, Maximizing Potential
                     </h2>
                     <div className="post-text">
                       <p>
-                        At MusclesXtrify, we are dedicated to empowering fitness
+                        At Prep, we are dedicated to empowering fitness
                         enthusiasts with scientifically formulated supplements
                         designed to optimize performance, enhance recovery, and
                         support muscle growth. Our mission is to provide
@@ -86,12 +84,12 @@ function AboutUs() {
                         best results with safety, purity, and transparency.
                       </p>
                       <p>
-                        Fitness is more than a trend—it's a way of life.
-                        MusclesXtrify is your trusted partner in pushing
-                        boundaries, building muscle, and enhancing endurance.
-                        Experience the power of micronized creatine, whey
-                        isolate protein powder, and other high-performance
-                        nutrition solutions designed for maximum effectiveness.
+                        Fitness is more than a trend—it's a way of life. Prep is
+                        your trusted partner in pushing boundaries, building
+                        muscle, and enhancing endurance. Experience the power of
+                        micronized creatine, whey isolate protein powder, and
+                        other high-performance nutrition solutions designed for
+                        maximum effectiveness.
                       </p>
                       <div className="blog-details-wrap">
                         <h3 className="title">Our Mission</h3>
@@ -106,11 +104,11 @@ function AboutUs() {
                       <div className="blog-details-wrap">
                         <h3 className="title">Our Vision</h3>
                         <p>
-                          MusclesXtrify setting the benchmark for purity,
-                          innovation, and effectiveness. Our goal is to inspire
-                          individuals to push their limits with best whey
-                          protein, and other premium supplements designed to
-                          enhance performance and well-being.
+                          Prep setting the benchmark for purity, innovation, and
+                          effectiveness. Our goal is to inspire individuals to
+                          push their limits with best whey protein, and other
+                          premium supplements designed to enhance performance
+                          and well-being.
                         </p>
                       </div>
                       <div className="blog-details-wrap border-none">
@@ -139,7 +137,7 @@ function AboutUs() {
                         </div>
                       </div>
                       <div className="blog-details-wrap border-none">
-                        <h3 className="title">Why Choose MusclesXtrify?</h3>
+                        <h3 className="title">Why Choose Prep?</h3>
                         <div className="b-details-list">
                           <ul className="list-wrap">
                             <li>
@@ -162,9 +160,9 @@ function AboutUs() {
                             <li>
                               <i className="fas fa-check"></i>Designed for Every
                               Fitness Level - From beginners to professional
-                              athletes, MusclesXtrify has something for
-                              everyone. Our fat burners cater to diverse fitness
-                              goals, from muscle building.
+                              athletes, Prep has something for everyone. Our fat
+                              burners cater to diverse fitness goals, from
+                              muscle building.
                             </li>
                             <li>
                               <i className="fas fa-check"></i>Scientifically
@@ -181,7 +179,7 @@ function AboutUs() {
                             Commitment to Excellence & Innovation
                           </h3>
                           <p>
-                            MusclesXtrify continuously evolves. Our focus on
+                            Prep continuously evolves. Our focus on
                             science-backed formulations, top-quality protein
                             whey, and performance-driven ingredients sets us
                             apart in the industry.
@@ -192,17 +190,17 @@ function AboutUs() {
                             Join the Xtrify - Fuel Your Strength
                           </h3>
                           <p>
-                            MusclesXtrify is more than a supplement brand; it's
-                            a lifestyle. If you're serious about achieving your
+                            Prep is more than a supplement brand; it's a
+                            lifestyle. If you're serious about achieving your
                             fitness goals, our premium-quality whey protein,
                             pre-workout powder, and creatine supplements are
                             here to help you perform at your best.
                           </p>
                           <p>
                             Fuel your strength, power your performance, and
-                            reach new heights with MusclesXtrify. Join the today
-                            and be part of a fitness community that values
-                            strength, endurance, and health.
+                            reach new heights with Prep. Join the today and be
+                            part of a fitness community that values strength,
+                            endurance, and health.
                           </p>
                         </div>
                         <div className="blog-details-wrap">
