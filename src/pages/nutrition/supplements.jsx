@@ -77,11 +77,11 @@ function Supplements() {
                 <div className="col-lg-4 col-12">
                   <div className="tg-shop-item text-center">
                     <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Chocolate&size=1kg">
+                      <a href="whey-protein-powder?flavor=Blue Berry&size=1kg">
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop01.jpg"
+                            "/assets/images/whey-protein/whey-protein-blue-berry.jpg"
                           }
                           alt="img"
                         />
@@ -89,108 +89,14 @@ function Supplements() {
                     </div>
                     <div className="tg-shop-content">
                       <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Chocolate&size=1kg">
-                          Premium whey Protein
+                        <a href="whey-protein-powder?flavor=Blue Berry&size=1kg">
+                          whey Protein Blue Berry
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 2,275/-</b>
+                        <b>₹ 3,010/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">35%</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* <div className="col-lg-6 col-md-6">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Mocha Coffee&size=1kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop02.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Mocha Coffee&size=1kg">
-                          Whey Protein Mocha Coffee-1kg
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price">₹ 2,275/-</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Chocolate&size=2kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop03.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Chocolate&size=2kg">
-                          Whey Protein Chocolate-2kg
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price">₹ 4,200/-</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Mocha Coffee&size=2kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop04.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Mocha Coffee&size=2kg">
-                          Whey Protein Mocha Coffee-2kg
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price">₹ 4,200/-</div>
-                    </div>
-                  </div>
-                </div> */}
-                <div className="col-lg-4 col-12">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="creatine-supplements">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop05.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="creatine-supplements">Creatine Monohydrate</a>
-                      </h4>
-                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 900/-</b>
-                        <span class="old-prices">₹1800/-</span>
-                        <h5 class="stock-status ml-3 mb-0">50%</h5>
+                        <h5 class="stock-status ml-3 mb-0">14%</h5>
                       </div>
                     </div>
                   </div>
@@ -198,11 +104,11 @@ function Supplements() {
                 <div className="col-lg-4 col-12">
                   <div className="tg-shop-item text-center">
                     <div className="tg-shop-thumb">
-                      <a href="pre-workout">
+                      <a href="whey-protein-powder?flavor=Kesar Pista&size=1kg">
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop06.jpg"
+                            "/assets/images/whey-protein/whey-protein-kesar-pista.jpg"
                           }
                           alt="img"
                         />
@@ -210,12 +116,95 @@ function Supplements() {
                     </div>
                     <div className="tg-shop-content">
                       <h4 className="title">
-                        <a href="pre-workout">Prep Pre Workout</a>
+                        <a href="whey-protein-powder?flavor=Kesar Pista&size=1kg">
+                          whey Protein Kesar Pista
+                        </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 1,125/-</b>
-                        <span class="old-prices">₹2500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">55%</h5>
+                        <b>₹ 3,010/-</b>
+                        <span class="old-prices">₹3500/-</span>
+                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-12">
+                  <div className="tg-shop-item text-center">
+                    <div className="tg-shop-thumb">
+                      <a href="whey-protein-powder?flavor=Mango&size=1kg">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/assets/images/whey-protein/whey-protein-mango.jpg"
+                          }
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                    <div className="tg-shop-content">
+                      <h4 className="title">
+                        <a href="whey-protein-powder?flavor=Mango&size=1kg">
+                          whey Protein Mango
+                        </a>
+                      </h4>
+                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
+                        <b>₹ 3,010/-</b>
+                        <span class="old-prices">₹3500/-</span>
+                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-12">
+                  <div className="tg-shop-item text-center">
+                    <div className="tg-shop-thumb">
+                      <a href="whey-protein-powder?flavor=Orange&size=1kg">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/assets/images/whey-protein/whey-protein-orange.jpg"
+                          }
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                    <div className="tg-shop-content">
+                      <h4 className="title">
+                        <a href="whey-protein-powder?flavor=Orange&size=1kg">
+                          whey Protein Orange
+                        </a>
+                      </h4>
+                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
+                        <b>₹ 3,010/-</b>
+                        <span class="old-prices">₹3500/-</span>
+                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-12">
+                  <div className="tg-shop-item text-center">
+                    <div className="tg-shop-thumb">
+                      <a href="whey-protein-powder?flavor=Strawberry&size=1kg">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/assets/images/whey-protein/whey-protein-strawberry.jpg"
+                          }
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                    <div className="tg-shop-content">
+                      <h4 className="title">
+                        <a href="whey-protein-powder?flavor=Strawberry&size=1kg">
+                          whey Protein Strawberry
+                        </a>
+                      </h4>
+                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
+                        <b>₹ 3,010/-</b>
+                        <span class="old-prices">₹3500/-</span>
+                        <h5 class="stock-status ml-3 mb-0">14%</h5>
                       </div>
                     </div>
                   </div>

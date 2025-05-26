@@ -45,16 +45,15 @@ function PureGoWheyProtein() {
 
   const productImages = {
     "1kg-Blue Berry": [
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-1.jpg",
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-2.jpg",
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-3.jpg",
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-4.jpg",
+      "/assets/images/whey-protein/whey-protein-blue-berry.jpg",
     ],
-    "1kg-Mocha Coffee": [
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-1.jpg",
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-2.jpg",
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-3.jpg",
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-4.jpg",
+    "1kg-Kesar Pista": [
+      "/assets/images/whey-protein/whey-protein-kesar-pista.jpg",
+    ],
+    "1kg-Mango": ["/assets/images/whey-protein/whey-protein-mango.jpg"],
+    "1kg-Orange": ["/assets/images/whey-protein/whey-protein-orange.jpg"],
+    "1kg-Strawberry": [
+      "/assets/images/whey-protein/whey-protein-strawberry.jpg",
     ],
   };
 
@@ -62,23 +61,56 @@ function PureGoWheyProtein() {
     {
       key: "1kg-Blue Berry",
       data: {
-        img: "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-1.jpg",
-        name: "Whey Protein 1kg Chocolate",
-        price: "2275",
+        img: "/assets/images/whey-protein/whey-protein-blue-berry.jpg",
+        name: "Whey Protein 1kg Blue Berry",
+        price: "3010",
         old_price: "3500",
         size: "1 Kg",
-        discount: "35%",
+        discount: "14%",
       },
     },
     {
-      key: "1kg-Mocha Coffee",
+      key: "1kg-Kesar Pista",
       data: {
-        img: "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-1.jpg",
-        name: "Whey Protein 1kg Mocha Coffee",
-        price: "2275",
+        img: "/assets/images/whey-protein/whey-protein-kesar-pista.jpg",
+        name: "Whey Protein 1kg Kesar Pista",
+        price: "3010",
         old_price: "3500",
         size: "1 Kg",
-        discount: "35%",
+        discount: "14%",
+      },
+    },
+    {
+      key: "1kg-Mango",
+      data: {
+        img: "/assets/images/whey-protein/whey-protein-mango.jpg",
+        name: "Whey Protein 1kg Mango",
+        price: "3010",
+        old_price: "3500",
+        size: "1 Kg",
+        discount: "14%",
+      },
+    },
+    {
+      key: "1kg-Orange",
+      data: {
+        img: "/assets/images/whey-protein/whey-protein-orange.jpg",
+        name: "Whey Protein 1kg Orange",
+        price: "3010",
+        old_price: "3500",
+        size: "1 Kg",
+        discount: "14%",
+      },
+    },
+    {
+      key: "1kg-Strawberry",
+      data: {
+        img: "/assets/images/whey-protein/whey-protein-strawberry.jpg",
+        name: "Whey Protein 1kg Strawberry",
+        price: "3010",
+        old_price: "3500",
+        size: "1 Kg",
+        discount: "14%",
       },
     },
   ];
@@ -223,14 +255,13 @@ function PureGoWheyProtein() {
                     </h5>
                   </div>
                   <p>
-                    Prep Whey Protein Chocolate 1kg delivers high-quality
-                    protein to fuel muscle growth, enhance recovery, and boost
-                    strength. With a rich chocolate flavor, it's perfect for
-                    athletes and fitness enthusiasts looking to optimize
-                    performance. Packed with essential amino acids, it supports
-                    lean muscle development and faster post-workout recovery.
-                    This protein blend helps you achieve your fitness goals with
-                    great taste and superior nutrition.
+                    Prep Whey Protein 1kg delivers high-quality protein to fuel
+                    muscle growth, enhance recovery, and boost strength. it's
+                    perfect for athletes and fitness enthusiasts looking to
+                    optimize performance. Packed with essential amino acids, it
+                    supports lean muscle development and faster post-workout
+                    recovery. This protein blend helps you achieve your fitness
+                    goals with great taste and superior nutrition.
                   </p>
                   <div>
                     <SelectableList
@@ -248,11 +279,24 @@ function PureGoWheyProtein() {
                       title="Flavor"
                     />
                   </div>
-                  <CourseButtonsContainer
-                    currentProductData={currentProductData}
-                    menuOpen={menuOpen}
-                    setMenuOpen={setMenuOpen}
-                  />
+                  <div className="col-12 p-0">
+                    <div className="m-0 w-100 py-2 pt-3 px-0">
+                      <div className="common-button">
+                        <div className="inner-shop-perched-info">
+                          <a
+                            href={`https://wa.me/+917079150883?text=${encodeURIComponent(
+                              `I want to know more about ${currentProductData.name}.`
+                            )}`}
+                            className="cart-btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            add to cart
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
