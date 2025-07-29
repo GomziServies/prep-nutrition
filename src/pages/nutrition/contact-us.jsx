@@ -111,7 +111,6 @@ function ContactUs() {
                       <h5 className="title">Connect</h5>
                       <p className="contact-desc">
                         prepnutrition35@gmail.com <br />
-                        Prep.in
                       </p>
                     </div>
                   </div>
@@ -126,7 +125,7 @@ function ContactUs() {
               <div className="col-12">
                 <div id="contact-map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4556.948051021256!2d72.45128767603619!3d23.011436216742364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bc4cfefe18d%3A0x7a54335d8b322f4e!2sShree%20Sanidhya%20Flora!5e1!3m2!1sen!2sin!4v1742209975750!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3425.7581309474217!2d86.1364802753885!3d25.40195627757972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI0JzA3LjAiTiA4NsKwMDgnMjAuNiJF!5e1!3m2!1sen!2sin!4v1753426347088!5m2!1sen!2sin"
                     allowfullscreen=""
                     loading="lazy"
                     height="650"

@@ -54,14 +54,13 @@ function ProductPhotoSection1({
               </div>
             </div>
           </div>
-          {/* <div className="col-12">
+          <div className="col-12">
             <div className="thumbnail-images d-flex">
               {images.map((image, index) => (
                 <div
                   key={index}
-                  className={`thumbnail-image ${
-                    index === activeImageIndex ? "active" : ""
-                  }`}
+                  className={`thumbnail-image ${index === activeImageIndex ? "active" : ""
+                    }`}
                   onClick={() => setActiveImageIndex(index)}
                 >
                   <div className="d-flex">
@@ -89,7 +88,7 @@ function ProductPhotoSection1({
                 </div>
               ))}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="product-imgs one-book singal-product-img mb-4 d-block d-lg-none">
@@ -107,14 +106,13 @@ function ProductPhotoSection1({
               </div>
             </div>
           </div>
-          {/* <div className="col-12">
+          <div className="col-12">
             <div className="thumbnail-images">
-              {images.map((image, index) => (
+              {images?.map((image, index) => (
                 <div
                   key={index}
-                  className={`thumbnail-image ${
-                    index === activeImageIndex ? "active" : ""
-                  }`}
+                  className={`thumbnail-image ${index === activeImageIndex ? "active" : ""
+                    }`}
                   onClick={() => setActiveImageIndex(index)}
                 >
                   <div className="d-flex">
@@ -142,7 +140,7 @@ function ProductPhotoSection1({
                 </div>
               ))}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

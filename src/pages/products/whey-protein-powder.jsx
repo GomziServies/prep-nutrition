@@ -45,15 +45,40 @@ function PureGoWheyProtein() {
 
   const productImages = {
     "1kg-Blue Berry": [
-      "/assets/images/whey-protein/whey-protein-blue-berry.jpg",
+      "/assets/images/whey-protein/blue-berry-1kg/01.jpg",
+      "/assets/images/whey-protein/blue-berry-1kg/02.jpg",
+      "/assets/images/whey-protein/blue-berry-1kg/03.jpg",
+      "/assets/images/whey-protein/blue-berry-1kg/04.jpg",
     ],
     "1kg-Kesar Pista": [
-      "/assets/images/whey-protein/whey-protein-kesar-pista.jpg",
+      "/assets/images/whey-protein/kesar-pista-1kg/01.jpg",
+      "/assets/images/whey-protein/kesar-pista-1kg/02.jpg",
+      "/assets/images/whey-protein/kesar-pista-1kg/03.jpg",
+      "/assets/images/whey-protein/kesar-pista-1kg/04.jpg",
     ],
-    "1kg-Mango": ["/assets/images/whey-protein/whey-protein-mango.jpg"],
-    "1kg-Orange": ["/assets/images/whey-protein/whey-protein-orange.jpg"],
+    "1kg-Mango": [
+      "/assets/images/whey-protein/mango-1kg/01.jpg",
+      "/assets/images/whey-protein/mango-1kg/02.jpg",
+      "/assets/images/whey-protein/mango-1kg/03.jpg",
+      "/assets/images/whey-protein/mango-1kg/04.jpg",
+    ],
+    "1kg-Orange": [
+      "/assets/images/whey-protein/orange-1kg/01.jpg",
+      "/assets/images/whey-protein/orange-1kg/02.jpg",
+      "/assets/images/whey-protein/orange-1kg/03.jpg",
+      "/assets/images/whey-protein/orange-1kg/04.jpg",
+    ],
     "1kg-Strawberry": [
-      "/assets/images/whey-protein/whey-protein-strawberry.jpg",
+      "/assets/images/whey-protein/strawberry-1kg/01.jpg",
+      "/assets/images/whey-protein/strawberry-1kg/02.jpg",
+      "/assets/images/whey-protein/strawberry-1kg/03.jpg",
+      "/assets/images/whey-protein/strawberry-1kg/04.jpg",
+    ],
+    "1kg-Chocolate": [
+      "/assets/images/whey-protein/chocolate-1kg/01.jpg",
+      "/assets/images/whey-protein/chocolate-1kg/02.jpg",
+      "/assets/images/whey-protein/chocolate-1kg/03.jpg",
+      "/assets/images/whey-protein/chocolate-1kg/04.jpg",
     ],
   };
 
@@ -61,7 +86,7 @@ function PureGoWheyProtein() {
     {
       key: "1kg-Blue Berry",
       data: {
-        img: "/assets/images/whey-protein/whey-protein-blue-berry.jpg",
+        img: "/assets/images/whey-protein/blue-berry-1kg/01.jpg",
         name: "Whey Protein 1kg Blue Berry",
         price: "3010",
         old_price: "3500",
@@ -72,7 +97,7 @@ function PureGoWheyProtein() {
     {
       key: "1kg-Kesar Pista",
       data: {
-        img: "/assets/images/whey-protein/whey-protein-kesar-pista.jpg",
+        img: "/assets/images/whey-protein/kesar-pista-1kg/01.jpg",
         name: "Whey Protein 1kg Kesar Pista",
         price: "3010",
         old_price: "3500",
@@ -83,7 +108,7 @@ function PureGoWheyProtein() {
     {
       key: "1kg-Mango",
       data: {
-        img: "/assets/images/whey-protein/whey-protein-mango.jpg",
+        img: "/assets/images/whey-protein/mango-1kg/01.jpg",
         name: "Whey Protein 1kg Mango",
         price: "3010",
         old_price: "3500",
@@ -94,7 +119,7 @@ function PureGoWheyProtein() {
     {
       key: "1kg-Orange",
       data: {
-        img: "/assets/images/whey-protein/whey-protein-orange.jpg",
+        img: "/assets/images/whey-protein/orange-1kg/01.jpg",
         name: "Whey Protein 1kg Orange",
         price: "3010",
         old_price: "3500",
@@ -105,8 +130,19 @@ function PureGoWheyProtein() {
     {
       key: "1kg-Strawberry",
       data: {
-        img: "/assets/images/whey-protein/whey-protein-strawberry.jpg",
+        img: "/assets/images/whey-protein/strawberry-1kg/01.jpg",
         name: "Whey Protein 1kg Strawberry",
+        price: "3010",
+        old_price: "3500",
+        size: "1 Kg",
+        discount: "14%",
+      },
+    },
+    {
+      key: "1kg-Chocolate",
+      data: {
+        img: "/assets/images/whey-protein/chocolate-1kg/01.jpg",
+        name: "Whey Protein 1kg Chocolate",
         price: "3010",
         old_price: "3500",
         size: "1 Kg",
@@ -123,6 +159,7 @@ function PureGoWheyProtein() {
     { id: "Mango", label: "Mango" },
     { id: "Orange", label: "Orange" },
     { id: "Strawberry", label: "Strawberry" },
+    { id: "Chocolate", label: "Chocolate" },
   ];
 
   const handleSelectSize = (id) => {
@@ -366,7 +403,7 @@ function PureGoWheyProtein() {
                         </ul>
                         <h4 className="title">DIRECTIONS :</h4>
                         <p>
-                          Add one rounded scoop (35 gm) of Whey Protein to 180 -
+                          Add one rounded scoop (30 gm) of Whey Protein to 180 -
                           200 ml of your favorite liquid such as water, skim
                           milk or almond milk. Stir with a spoon or shake in a
                           shaker for 20-25 seconds until protein powder fully
@@ -409,15 +446,15 @@ function PureGoWheyProtein() {
                           <tbody>
                             <tr>
                               <th scope="row">Energy (kcal)</th>
-                              <td>153.38</td>
+                              <td>113.47</td>
                             </tr>
                             <tr>
                               <th scope="row">Total Protein (g)</th>
-                              <td>25.00</td>
+                              <td>24.00</td>
                             </tr>
                             <tr>
                               <th scope="row">Carbohydrates (g)</th>
-                              <td>3.69</td>
+                              <td>4.02</td>
                             </tr>
                             <tr>
                               <th scope="row">Added Sugar (g)</th>
@@ -425,11 +462,11 @@ function PureGoWheyProtein() {
                             </tr>
                             <tr>
                               <th scope="row">Dietary Fibre (g)</th>
-                              <td>1.07</td>
+                              <td>1.78</td>
                             </tr>
                             <tr>
                               <th scope="row">Total Fat (g)</th>
-                              <td>1.14</td>
+                              <td>0.98</td>
                             </tr>
                             <tr>
                               <th scope="row">Cholesterol (g)</th>
@@ -437,23 +474,11 @@ function PureGoWheyProtein() {
                             </tr>
                             <tr>
                               <th scope="row">Potassium (mg)</th>
-                              <td>95.0</td>
+                              <td>158.0</td>
                             </tr>
                             <tr>
                               <th scope="row">Sodium (mg)</th>
-                              <td>98.0</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">Glutamine(g)</th>
-                              <td>4.20</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">EAA</th>
-                              <td>11.0</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">BCAA</th>
-                              <td>5.5</td>
+                              <td>135.5</td>
                             </tr>
                           </tbody>
                         </table>

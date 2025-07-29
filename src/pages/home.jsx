@@ -60,9 +60,8 @@ function Home() {
         const reverseX = index % 2 === 0 ? -1 : 1;
         const reverseY = index % 2 !== 0 ? -1 : 1;
 
-        shape.style.transform = `translate(${
-          xMove * movementFactor * reverseX
-        }px, ${yMove * movementFactor * reverseY}px)`;
+        shape.style.transform = `translate(${xMove * movementFactor * reverseX
+          }px, ${yMove * movementFactor * reverseY}px)`;
       });
     };
 
@@ -396,7 +395,7 @@ function Home() {
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/whey-protein/whey-protein-blue-berry.jpg"
+                            "/assets/images/whey-protein/blue-berry-1kg/01.jpg"
                           }
                           alt="img"
                         />
@@ -423,7 +422,7 @@ function Home() {
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/whey-protein/whey-protein-kesar-pista.jpg"
+                            "/assets/images/whey-protein/kesar-pista-1kg/01.jpg"
                           }
                           alt="img"
                         />
@@ -450,7 +449,7 @@ function Home() {
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/whey-protein/whey-protein-mango.jpg"
+                            "/assets/images/whey-protein/mango-1kg/01.jpg"
                           }
                           alt="img"
                         />
@@ -477,7 +476,7 @@ function Home() {
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/whey-protein/whey-protein-orange.jpg"
+                            "/assets/images/whey-protein/orange-1kg/01.jpg"
                           }
                           alt="img"
                         />
@@ -504,7 +503,7 @@ function Home() {
                         <img
                           src={
                             process.env.PUBLIC_URL +
-                            "/assets/images/whey-protein/whey-protein-strawberry.jpg"
+                            "/assets/images/whey-protein/strawberry-1kg/01.jpg"
                           }
                           alt="img"
                         />
@@ -514,6 +513,33 @@ function Home() {
                       <h4 className="title">
                         <a href="whey-protein-powder?flavor=Strawberry&size=1kg">
                           whey Protein Strawberry
+                        </a>
+                      </h4>
+                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
+                        <b>₹ 3,010/-</b>
+                        <span class="old-prices">₹3500/-</span>
+                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-12">
+                  <div className="tg-shop-item text-center">
+                    <div className="tg-shop-thumb">
+                      <a href="whey-protein-powder?flavor=Chocolate&size=1kg">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/assets/images/whey-protein/chocolate-1kg/01.jpg"
+                          }
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                    <div className="tg-shop-content">
+                      <h4 className="title">
+                        <a href="whey-protein-powder?flavor=Chocolate&size=1kg">
+                          whey Protein chocolate
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">

@@ -70,14 +70,14 @@ function HomeNutritionFooter() {
                       </div>
                     </div>
                     <div className="footer-social">
-                      <a href="https://www.facebook.com/profile.php?id=61573984392891&mibextid=ZbWKwL">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      <a href="https://www.instagram.com/prepnutrition_35?igsh=aXllbW1tZ3J4NW5o">
                         <i className="fab fa-instagram"></i>
                       </a>
                       <a href="https://api.whatsapp.com/send?phone=+919510343247&text=Hello, I want to know more about your service.">
                         <i className="fab fa-whatsapp"></i>
+                      </a>
+                      <a href="https://www.youtube.com/@PREPNUTRITION">
+                        <i className="fab fa-youtube"></i>
                       </a>
                     </div>
                   </div>

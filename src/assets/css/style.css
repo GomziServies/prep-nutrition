@@ -418,6 +418,9 @@ h6 {
 .list-wrap li {
   list-style: none;
 }
+.list-wrap-li {
+  font-size: 19px !important;
+}
 
 *::-moz-selection {
   background: #d6b161;
