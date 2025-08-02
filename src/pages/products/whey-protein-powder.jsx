@@ -328,7 +328,7 @@ function PureGoWheyProtein() {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            add to cart
+                            Inquiry Now
                           </a>
                         </div>
                       </div>

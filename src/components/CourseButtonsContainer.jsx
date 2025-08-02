@@ -33,7 +33,7 @@ const CourseButtonsContainer = ({
         <div className="common-button">
           <div className="inner-shop-perched-info">
             <button onClick={(e) => toggleMenu(currentProductData, e)} className="cart-btn">
-              add to cart
+              Inquiry Now
             </button>
           </div>
           {menuOpen ? (

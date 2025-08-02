@@ -73,7 +73,7 @@ function HomeNutritionFooter() {
                       <a href="https://www.instagram.com/prepnutrition_35?igsh=aXllbW1tZ3J4NW5o">
                         <i className="fab fa-instagram"></i>
                       </a>
-                      <a href="https://api.whatsapp.com/send?phone=+919510343247&text=Hello, I want to know more about your service.">
+                      <a href="https://api.whatsapp.com/send?phone=+917079150883&text=Hello, I want to know more about your service.">
                         <i className="fab fa-whatsapp"></i>
                       </a>
                       <a href="https://www.youtube.com/@PREPNUTRITION">
