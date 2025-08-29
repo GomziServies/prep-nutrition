@@ -47,7 +47,7 @@ function ProductPhotoSection1({
                   zoomSrc={images[prevIndex]}
                   zoomType="hover"
                   zoomPreload={true}
-                  alt="MuscleXTrify"
+                  alt="Prep Nutrition"
                   width="95%"
                   effect="blur"
                 />
@@ -74,7 +74,7 @@ function ProductPhotoSection1({
                       >
                         <LazyLoadImage
                           src={image}
-                          alt="MuscleXTrify"
+                          alt="Prep Nutrition"
                           effect="blur"
                           style={{
                             width: "100%",
@@ -102,7 +102,7 @@ function ProductPhotoSection1({
                 }}
                 ref={imageRef}
               >
-                <img src={images[prevIndex]} alt="MuscleXTrify" width="100%" />
+                <img src={images[prevIndex]} alt="Prep Nutrition" width="100%" />
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ function ProductPhotoSection1({
                       >
                         <LazyLoadImage
                           src={image}
-                          alt="MuscleXTrify"
+                          alt="Prep Nutrition"
                           effect="blur"
                           style={{
                             width: "100%",

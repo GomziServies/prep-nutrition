@@ -70,7 +70,7 @@ root.render(
                     className="img-fluid"
                     width={150}
                     height="auto"
-                    alt="MuscleXTrify"
+                    alt="Prep Nutrition"
                   />
                 </div>
               </div>
