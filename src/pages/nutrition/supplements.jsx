@@ -77,6 +77,33 @@ function Supplements() {
                 <div className="col-lg-4 col-12">
                   <div className="tg-shop-item text-center">
                     <div className="tg-shop-thumb">
+                      <a href="whey-protein-powder?flavor=Mawa Kulfi&size=1kg">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/assets/images/whey-protein/mawa-kulfi-1kg/01.jpg"
+                          }
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                    <div className="tg-shop-content">
+                      <h4 className="title">
+                        <a href="whey-protein-powder?flavor=Blue Berry&size=1kg">
+                          whey Protein Mawa Kulfi
+                        </a>
+                      </h4>
+                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
+                        <b>₹ 3200/-</b>
+                        <span class="old-prices">₹3500/-</span>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-12">
+                  <div className="tg-shop-item text-center">
+                    <div className="tg-shop-thumb">
                       <a href="whey-protein-powder?flavor=Blue Berry&size=1kg">
                         <img
                           src={
@@ -94,9 +121,9 @@ function Supplements() {
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 3,010/-</b>
+                        <b>₹ 3200/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
                       </div>
                     </div>
                   </div>
@@ -121,9 +148,9 @@ function Supplements() {
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 3,010/-</b>
+                        <b>₹ 3200/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
                       </div>
                     </div>
                   </div>
@@ -148,9 +175,9 @@ function Supplements() {
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 3,010/-</b>
+                        <b>₹ 3200/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
                       </div>
                     </div>
                   </div>
@@ -175,9 +202,9 @@ function Supplements() {
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 3,010/-</b>
+                        <b>₹ 3200/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
                       </div>
                     </div>
                   </div>
@@ -202,9 +229,9 @@ function Supplements() {
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 3,010/-</b>
+                        <b>₹ 3200/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
                       </div>
                     </div>
                   </div>
@@ -229,9 +256,9 @@ function Supplements() {
                         </a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 3,010/-</b>
+                        <b>₹ 3200/-</b>
                         <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">14%</h5>
+                        <h5 class="stock-status ml-3 mb-0">8.57%</h5>
                       </div>
                     </div>
                   </div>

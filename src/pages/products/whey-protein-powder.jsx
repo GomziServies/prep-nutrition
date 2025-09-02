@@ -44,6 +44,12 @@ function PureGoWheyProtein() {
   };
 
   const productImages = {
+    "1kg-Mawa Kulfi": [
+      "/assets/images/whey-protein/mawa-kulfi-1kg/01.jpg",
+      "/assets/images/whey-protein/mawa-kulfi-1kg/02.jpg",
+      "/assets/images/whey-protein/mawa-kulfi-1kg/03.jpg",
+      "/assets/images/whey-protein/mawa-kulfi-1kg/04.jpg",
+    ],
     "1kg-Blue Berry": [
       "/assets/images/whey-protein/blue-berry-1kg/01.jpg",
       "/assets/images/whey-protein/blue-berry-1kg/02.jpg",
@@ -84,14 +90,25 @@ function PureGoWheyProtein() {
 
   const products = [
     {
+      key: "1kg-Mawa Kulfi",
+      data: {
+        img: "/assets/images/whey-protein/mawa-kulfi-1kg/01.jpg",
+        name: "Whey Protein 1kg Mawa Kulfi",
+        price: "3200",
+        old_price: "3500",
+        size: "1 Kg",
+        discount: "8.57%",
+      },
+    },
+    {
       key: "1kg-Blue Berry",
       data: {
         img: "/assets/images/whey-protein/blue-berry-1kg/01.jpg",
         name: "Whey Protein 1kg Blue Berry",
-        price: "3010",
+        price: "3200",
         old_price: "3500",
         size: "1 Kg",
-        discount: "14%",
+        discount: "8.57%",
       },
     },
     {
@@ -99,10 +116,10 @@ function PureGoWheyProtein() {
       data: {
         img: "/assets/images/whey-protein/kesar-pista-1kg/01.jpg",
         name: "Whey Protein 1kg Kesar Pista",
-        price: "3010",
+        price: "3200",
         old_price: "3500",
         size: "1 Kg",
-        discount: "14%",
+        discount: "8.57%",
       },
     },
     {
@@ -110,10 +127,10 @@ function PureGoWheyProtein() {
       data: {
         img: "/assets/images/whey-protein/mango-1kg/01.jpg",
         name: "Whey Protein 1kg Mango",
-        price: "3010",
+        price: "3200",
         old_price: "3500",
         size: "1 Kg",
-        discount: "14%",
+        discount: "8.57%",
       },
     },
     {
@@ -121,10 +138,10 @@ function PureGoWheyProtein() {
       data: {
         img: "/assets/images/whey-protein/orange-1kg/01.jpg",
         name: "Whey Protein 1kg Orange",
-        price: "3010",
+        price: "3200",
         old_price: "3500",
         size: "1 Kg",
-        discount: "14%",
+        discount: "8.57%",
       },
     },
     {
@@ -132,10 +149,10 @@ function PureGoWheyProtein() {
       data: {
         img: "/assets/images/whey-protein/strawberry-1kg/01.jpg",
         name: "Whey Protein 1kg Strawberry",
-        price: "3010",
+        price: "3200",
         old_price: "3500",
         size: "1 Kg",
-        discount: "14%",
+        discount: "8.57%",
       },
     },
     {
@@ -143,10 +160,10 @@ function PureGoWheyProtein() {
       data: {
         img: "/assets/images/whey-protein/chocolate-1kg/01.jpg",
         name: "Whey Protein 1kg Chocolate",
-        price: "3010",
+        price: "3200",
         old_price: "3500",
         size: "1 Kg",
-        discount: "14%",
+        discount: "8.57%",
       },
     },
   ];
@@ -154,6 +171,7 @@ function PureGoWheyProtein() {
   const sizeOptions = [{ id: "1kg", label: "1kg" }];
 
   const flavorOptions = [
+    { id: "Mawa Kulfi", label: "Mawa Kulfi" },
     { id: "Blue Berry", label: "Blue Berry" },
     { id: "Kesar Pista", label: "Kesar Pista" },
     { id: "Mango", label: "Mango" },
